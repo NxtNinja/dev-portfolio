@@ -8,8 +8,8 @@ const Layout = ({ children }: { children: ReactNode }) => {
       <nav className="h-[10dvh]">
         <Navigation />
       </nav>
-      <main>{children}</main>
-      <footer>
+      <main className="h-[80dvh]">{children}</main>
+      <footer className="h-[10dvh]">
         <Footer />
       </footer>
     </>

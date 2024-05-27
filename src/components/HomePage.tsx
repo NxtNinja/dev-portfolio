@@ -8,7 +8,7 @@ const HomePage = () => {
 
   return (
     <>
-      <div className="h-[80dvh] flex flex-col">
+      <div className="flex flex-col">
         <div className="md:w-1/2 mx-auto text-center space-y-3 flex flex-col justify-center items-center">
           <Image
             src="/homepage.jpg"
