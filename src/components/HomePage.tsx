@@ -11,7 +11,9 @@ const HomePage = () => {
         <div className="md:w-1/2 mx-auto text-center space-y-3 flex flex-col justify-center items-center">
           <img
             src="/home.jpg"
-            alt=""
+            alt="Home Image"
+            width={500}
+            height={500}
             className={`${theme ? "invert xl:w-[50%]" : "xl:w-[50%]"}`}
           />
           <div className="">
