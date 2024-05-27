@@ -1,10 +1,11 @@
+import HomePage from "@/components/HomePage";
 import Layout from "@/components/Layout";
 
 const index = () => {
   return (
     <>
       <Layout>
-        <div className=""></div>
+        <HomePage />
       </Layout>
     </>
   );

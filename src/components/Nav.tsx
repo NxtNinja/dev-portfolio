@@ -20,11 +20,11 @@ export default function Navigation() {
   const router = useRouter();
 
   const menu = [
-    { icon: <Home />, path: "/", name: "home" },
-    { icon: <User />, path: "/about", name: "about" },
-    { icon: <Lightbulb />, path: "/services", name: "services" },
-    { icon: <CodeXml />, path: "/projects", name: "projects" },
-    { icon: <AtSign />, path: "/contact", name: "contact" },
+    { icon: <Home />, path: "/", name: "Home" },
+    { icon: <User />, path: "/about", name: "About" },
+    { icon: <Lightbulb />, path: "/services", name: "Services" },
+    { icon: <CodeXml />, path: "/projects", name: "Projects" },
+    { icon: <AtSign />, path: "/contact", name: "Contact" },
   ];
 
   return (
