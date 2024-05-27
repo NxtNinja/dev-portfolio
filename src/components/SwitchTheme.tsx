@@ -11,7 +11,7 @@ const SwitchTheme = () => {
 
   return (
     <>
-      <div onClick={themeSwitch} className="">
+      <div onClick={themeSwitch} className="cursor-pointer">
         {theme ? (
           <motion.div
             key="moon"
