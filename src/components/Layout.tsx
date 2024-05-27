@@ -5,11 +5,11 @@ import Footer from "./Footer";
 const Layout = ({ children }: { children: ReactNode }) => {
   return (
     <>
-      <nav className="h-[10dvh]">
+      <nav className="">
         <Navigation />
       </nav>
-      <main>{children}</main>
-      <footer>
+      <main className="h-[80dvh]">{children}</main>
+      <footer className="h-[10dvh] w-full">
         <Footer />
       </footer>
     </>
