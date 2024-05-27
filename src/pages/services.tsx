@@ -1,6 +1,6 @@
 import Layout from "@/components/Layout";
 
-const index = () => {
+const services = () => {
   return (
     <>
       <Layout>
@@ -10,4 +10,4 @@ const index = () => {
   );
 };
 
-export default index;
+export default services;
