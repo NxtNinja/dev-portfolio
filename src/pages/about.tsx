@@ -1,10 +1,11 @@
+import About from "@/components/About";
 import Layout from "@/components/Layout";
 
 const about = () => {
   return (
     <>
       <Layout>
-        <div className=""></div>
+        <About />
       </Layout>
     </>
   );
