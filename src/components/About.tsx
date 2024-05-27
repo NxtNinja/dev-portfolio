@@ -2,9 +2,9 @@ const About = () => {
   const education = [
     { name: "WBCHSE", class: "10+2", grade: "82.6%", year: "2019 - 2021" },
     {
-      name: "Bachalor of Technology",
+      name: "B.TECH",
       class: "1ST Year",
-      grade: "7.55 YGPA",
+      grade: "---",
       year: "2022 - 2026",
     },
   ];
