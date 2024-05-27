@@ -8,13 +8,13 @@ const HomePage = () => {
 
   return (
     <>
-      <div className="h-[80dvh] flex flex-col items-center">
+      <div className="h-[80dvh] flex flex-col">
         <div className="md:w-1/2 mx-auto text-center space-y-3 flex flex-col justify-center items-center">
           <Image
             src="/homepage.jpg"
             alt="Home Image"
-            width={500}
-            height={500}
+            width={300}
+            height={300}
             className={`${theme ? "invert xl:w-[50%]" : "xl:w-[50%]"}`}
           />
           <div className="">
