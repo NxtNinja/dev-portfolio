@@ -1,6 +1,6 @@
 import Layout from "@/components/Layout";
 
-const index = () => {
+const contact = () => {
   return (
     <>
       <Layout>
@@ -10,4 +10,4 @@ const index = () => {
   );
 };
 
-export default index;
+export default contact;

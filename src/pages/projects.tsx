@@ -1,6 +1,6 @@
 import Layout from "@/components/Layout";
 
-const index = () => {
+const projects = () => {
   return (
     <>
       <Layout>
@@ -10,4 +10,4 @@ const index = () => {
   );
 };
 
-export default index;
+export default projects;
