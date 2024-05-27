@@ -28,10 +28,7 @@ export default function Navigation() {
   ];
 
   return (
-    <Navbar
-      onMenuOpenChange={setIsMenuOpen}
-      className={`fixed top-0 ${raleway.className}`}
-    >
+    <Navbar onMenuOpenChange={setIsMenuOpen} className={`${raleway.className}`}>
       <NavbarContent>
         <NavbarMenuToggle
           aria-label={isMenuOpen ? "Close menu" : "Open menu"}
