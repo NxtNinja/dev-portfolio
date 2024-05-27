@@ -3,7 +3,7 @@ import Link from "next/link";
 const Footer = () => {
   return (
     <>
-      <div className="w-full p-3 px-12 flex justify-between items-center h-[10dvh]">
+      <div className="w-full p-3 lg:px-12 flex justify-between items-center h-[10dvh]">
         <p className="font-bold">
           @{new Date().getFullYear()}.All rights reserved
         </p>

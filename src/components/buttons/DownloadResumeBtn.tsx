@@ -14,7 +14,7 @@ const DownloadResumeBtn = () => {
     <>
       <Button
         onClick={downloadResume}
-        className="w-full md:w-fit border-2 font-semibold text-background rounded-md py-2 px-7 bg-foreground"
+        className="w-[80%] md:w-fit border-2 font-semibold text-background rounded-md py-2 px-7 bg-foreground"
         radius="sm"
       >
         Download Resume

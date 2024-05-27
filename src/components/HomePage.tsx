@@ -1,6 +1,7 @@
 import { ThemeAtom } from "@/utils/ThemeAtom";
 import { useAtom } from "jotai/react";
 import DownloadResumeBtn from "./buttons/DownloadResumeBtn";
+import Image from "next/image";
 
 const HomePage = () => {
   const [theme] = useAtom(ThemeAtom);
@@ -9,8 +10,8 @@ const HomePage = () => {
     <>
       <div className="h-[80dvh] flex flex-col items-center">
         <div className="md:w-1/2 mx-auto text-center space-y-3 flex flex-col justify-center items-center">
-          <img
-            src="/home.jpg"
+          <Image
+            src="/homepage.jpg"
             alt="Home Image"
             width={500}
             height={500}
