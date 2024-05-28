@@ -30,7 +30,7 @@ const About = () => {
                 communication skills.
               </span>{" "}
             </div>
-            <div className="p-3 flex flex-col gap-4">
+            <div className="p-4 flex flex-col gap-4">
               {education.map((item) => (
                 <div
                   key={item.name}
