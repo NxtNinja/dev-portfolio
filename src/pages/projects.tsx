@@ -1,10 +1,11 @@
 import Layout from "@/components/Layout";
+import DisplayProjects from "@/components/projects/DisplayProjects";
 
 const projects = () => {
   return (
     <>
       <Layout>
-        <div className=""></div>
+        <DisplayProjects />
       </Layout>
     </>
   );
