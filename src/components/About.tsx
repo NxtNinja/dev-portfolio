@@ -11,7 +11,7 @@ const About = () => {
   return (
     <>
       <div className="flex flex-col h-[80dvh] justify-center items-center">
-        <div className="space-y-7 md:w-2/3 mx-auto flex flex-col justify-center items-center">
+        <div className="md:space-y-7 md:w-2/3 mx-auto flex flex-col justify-center items-center">
           <p className="text-3xl font-bold">About Me</p>
           <div className="grid lg:grid-cols-2">
             <div className="p-3 text-sm lg:text-xl text-justify">

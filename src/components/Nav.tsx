@@ -77,7 +77,7 @@ export default function Navigation() {
             </NavbarItem>
           </Link>
         ))}
-        <NavbarItem className="mt-auto">
+        <NavbarItem className="">
           <Footer />
         </NavbarItem>
       </NavbarMenu>
