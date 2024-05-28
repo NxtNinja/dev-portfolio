@@ -18,7 +18,7 @@ const Contact = () => {
             <p className="text-3xl font-bold">Contact me</p>
             <p className="text-xl">Want to hire me? Let's get connected.</p>
           </div>
-          <div className="flex items-center justify-center gap-2 text-lg font-bold">
+          <div className="flex items-center justify-center gap-2 text-sm md:text-lg font-bold">
             <p className="">My Gmail: </p>
             <Link
               target="_blank"
