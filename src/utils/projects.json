@@ -1,0 +1,38 @@
+{
+  "fullstack-projects": [
+    {
+      "name": "AlteraX. A social media web application.",
+      "technologies": "NextJS, TailwindCSS, Directus(Headless), Jotai, Typescript",
+      "github": "https://github.com/NxtNinja/AlteraX"
+    },
+    {
+      "name": "Quik-Note. A notes talking web application.",
+      "technologies": "NextJS, TailwindCSS, NestJS, SQLite, Prisma, Jotai, Typescript",
+      "github": "https://github.com/NxtNinja/Quik-Note"
+    },
+    {
+      "name": "Expense Tracker web application",
+      "technologies": "NextJS, TailwindCSS, Fastify, Typebox, SQLite, Prisma, Jotai, Typescript",
+      "github": "https://github.com/NxtNinja/Expense-Tracker-FullStack"
+    },
+    {
+      "name": "Todo web application",
+      "technologies": "NextJS, TailwindCSS, Fastify, Typebox, SQLite, Prisma, Jotai, Typescript",
+      "github": "https://github.com/NxtNinja/Todo-App"
+    }
+  ],
+  "api-projects": [
+    {
+      "name": "Star Wars web application. Powered by SWAPI",
+      "technologies": "NextJS, TailwindCSS, NextUI, Jotai, Typescript",
+      "github": "https://github.com/NxtNinja/star-wars-app",
+      "live-link": "https://starwars-prod.netlify.app"
+    },
+    {
+      "name": "Random User web application",
+      "technologies": "NextJS, TailwindCSS, NextUI, Jotai, Typescript",
+      "github": "https://github.com/NxtNinja/random-user-prod",
+      "live-link": "https://random-user-prod.netlify.app"
+    }
+  ]
+}

@@ -14,6 +14,7 @@
     "@nextui-org/chip": "2.0.28",
     "@nextui-org/navbar": "2.0.30",
     "@nextui-org/system": "2.1.2",
+    "@nextui-org/tabs": "^2.0.30",
     "@nextui-org/theme": "2.2.3",
     "@nextui-org/tooltip": "2.0.33",
     "framer-motion": "11.2.6",
@@ -22,7 +23,7 @@
     "next": "14.2.3",
     "react": "18",
     "react-dom": "18",
-    "sharp": "0.33.4"
+    "react-simple-typewriter": "5.0.1"
   },
   "devDependencies": {
     "typescript": "5",
