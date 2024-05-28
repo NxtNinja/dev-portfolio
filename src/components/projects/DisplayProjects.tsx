@@ -7,7 +7,7 @@ const DisplayProjects = () => {
   return (
     <>
       <div className="grid place-items-center p-5 w-full h-full md:h-[80dvh] space-y-8">
-        <div className="space-y-7 md:w-2/3 lg:w-1/2 mx-auto flex md:mt-10 flex-col items-center h-[500px]">
+        <div className="space-y-7 md:w-2/3 lg:w-1/2 mx-auto flex md:mt-10 flex-col items-center h-[450px]">
           <p className="text-3xl font-bold">My Projects</p>
 
           <Tabs
