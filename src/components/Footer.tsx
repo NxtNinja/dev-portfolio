@@ -1,3 +1,4 @@
+import { Github, Linkedin } from "lucide-react";
 import Link from "next/link";
 
 const Footer = () => {
@@ -8,9 +9,14 @@ const Footer = () => {
           @{new Date().getFullYear()}.All rights reserved
         </p>
         <div className="flex items-center gap-3 font-bold">
-          <Link href={"https://github.com/NxtNinja"}>Github</Link>
-          <Link href={"https://www.linkedin.com/in/priyangsu-banik-757065279/"}>
-            LinkedIn
+          <Link target="_blank" href={"https://github.com/NxtNinja"}>
+            <Github />
+          </Link>
+          <Link
+            target="_blank"
+            href={"https://www.linkedin.com/in/priyangsu-banik-757065279/"}
+          >
+            <Linkedin />
           </Link>
         </div>
       </div>

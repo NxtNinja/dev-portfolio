@@ -10,9 +10,9 @@ const About = () => {
   ];
   return (
     <>
-      <div className="flex flex-col justify-center items-center h-full  space-y-8">
+      <div className="flex flex-col h-[80dvh] justify-center items-center space-y-7">
         <p className="text-3xl font-bold">About Me</p>
-        <div className="lg:w-2/3 mx-auto grid lg:grid-cols-2">
+        <div className="md:w-2/3  mx-auto grid lg:grid-cols-2">
           <div className="p-3 text-sm lg:text-xl text-justify">
             I am a <span className="font-bold">Computer Science</span> Student
             currently in <span className="font-bold">2nd Year</span> of my
@@ -26,9 +26,8 @@ const About = () => {
             engineer. Besides, my coding skills I am a{" "}
             <span className="font-bold">
               diligent learner, adaptive in nature and a confidant about my
-              communication skills
+              communication skills.
             </span>{" "}
-            .
           </div>
           <div className="p-3 flex flex-col gap-4">
             {education.map((item) => (

@@ -1,10 +1,11 @@
 import Layout from "@/components/Layout";
+import Services from "@/components/Services";
 
 const services = () => {
   return (
     <>
       <Layout>
-        <div className=""></div>
+        <Services />
       </Layout>
     </>
   );

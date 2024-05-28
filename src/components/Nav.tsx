@@ -12,6 +12,7 @@ import { useRouter } from "next/router";
 import Link from "next/link";
 import SwitchTheme from "./SwitchTheme";
 import { Raleway } from "next/font/google";
+import Footer from "./Footer";
 
 const raleway = Raleway({ subsets: ["latin"], weight: "400" });
 
@@ -76,6 +77,9 @@ export default function Navigation() {
             </NavbarItem>
           </Link>
         ))}
+        <NavbarItem className="mt-auto">
+          <Footer />
+        </NavbarItem>
       </NavbarMenu>
     </Navbar>
   );
