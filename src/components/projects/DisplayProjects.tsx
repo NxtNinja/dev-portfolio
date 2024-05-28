@@ -15,11 +15,12 @@ const DisplayProjects = () => {
             size="lg"
             className="text-center"
             radius="sm"
+            color="default"
           >
             <Tab
               key="fullstack"
               title="Full-Stack Apps"
-              className="w-full grid md:grid-cols-2 gap-3"
+              className="grid md:grid-cols-2 gap-3"
             >
               {projects["fullstack-projects"].map((item, index) => (
                 <div
@@ -44,7 +45,7 @@ const DisplayProjects = () => {
             <Tab
               key="apifetch"
               title="API fethch Apps"
-              className="w-full grid md:grid-cols-2 gap-3"
+              className="grid md:grid-cols-2 gap-3"
             >
               {projects["api-projects"].map((item, index) => (
                 <div

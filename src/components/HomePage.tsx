@@ -33,7 +33,7 @@ const HomePage = () => {
               />
             </span>
           </div>
-          <p className="">
+          <p className="p-4">
             I am an Enginnering Student, pursuing B.Tech in Computer Science and
             Engineering at Dr. Sudhir Chandra Sur Institute of Technology and
             Sports Complex

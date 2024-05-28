@@ -11,7 +11,7 @@ const About = () => {
   return (
     <>
       <div className="flex flex-col h-[80dvh] justify-center items-center">
-        <div className="md:space-y-7 md:w-2/3 mx-auto flex flex-col justify-center items-center">
+        <div className="md:space-y-7 md:w-3/4 lg:w-1/2 mx-auto flex md:mt-10 flex-col items-center h-[450px]">
           <p className="text-3xl font-bold">About Me</p>
           <div className="grid lg:grid-cols-2">
             <div className="p-3 text-sm lg:text-xl text-justify">
@@ -30,7 +30,7 @@ const About = () => {
                 communication skills.
               </span>{" "}
             </div>
-            <div className="p-3 flex flex-col gap-4">
+            <div className="p-4 flex flex-col gap-4">
               {education.map((item) => (
                 <div
                   key={item.name}

@@ -1,5 +1,5 @@
-import { Github, Linkedin } from "lucide-react";
 import Link from "next/link";
+import { FaGithub, FaLinkedin } from "react-icons/fa";
 
 const Footer = () => {
   return (
@@ -8,15 +8,15 @@ const Footer = () => {
         <p className="font-bold">
           @{new Date().getFullYear()}.All rights reserved
         </p>
-        <div className="flex items-center gap-3 font-bold">
+        <div className="flex items-center gap-5 font-bold">
           <Link target="_blank" href={"https://github.com/NxtNinja"}>
-            <Github />
+            <FaGithub size={30} />
           </Link>
           <Link
             target="_blank"
             href={"https://www.linkedin.com/in/priyangsu-banik-757065279/"}
           >
-            <Linkedin />
+            <FaLinkedin size={30} />
           </Link>
         </div>
       </div>
