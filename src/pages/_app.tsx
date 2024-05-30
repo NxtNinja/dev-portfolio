@@ -5,6 +5,7 @@ import { Raleway } from "next/font/google";
 import { useAtom } from "jotai/react";
 import { ThemeAtom } from "@/utils/ThemeAtom";
 import { useEffect } from "react";
+import Layout from "@/components/Layout";
 
 const raleway = Raleway({ subsets: ["latin"], weight: "400" });
 
@@ -22,7 +23,9 @@ export default function App({ Component, pageProps }: AppProps) {
   return (
     <NextUIProvider>
       <main className={raleway.className}>
-        <Component {...pageProps} />
+        <Layout>
+          <Component {...pageProps} />
+        </Layout>
       </main>
     </NextUIProvider>
   );
