@@ -16,7 +16,7 @@
     "@nextui-org/navbar": "2.0.30",
     "@nextui-org/system": "2.1.2",
     "@nextui-org/tabs": "^2.0.30",
-    "@nextui-org/theme": "2.2.3",
+    "@nextui-org/theme": "2.2.11",
     "@nextui-org/tooltip": "2.0.33",
     "framer-motion": "11.2.6",
     "jotai": "2.8.1",
