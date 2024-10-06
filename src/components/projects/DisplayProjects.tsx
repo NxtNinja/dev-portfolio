@@ -44,7 +44,7 @@ const DisplayProjects = () => {
             </Tab>
             <Tab
               key="apifetch"
-              title="API fethch Apps"
+              title="API fetch Apps"
               className="grid md:grid-cols-2 gap-3"
             >
               {projects["api-projects"].map((item, index) => (
