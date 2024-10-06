@@ -1,0 +1,79 @@
+{
+  "frontend": [
+    {
+      "id": 1,
+      "name": "NextJS",
+      "description": "A React framework for building server-side rendered and statically generated web applications.",
+      "logo": "/next_logo.svg"
+    },
+    {
+      "id": 2,
+      "name": "TailwindCSS",
+      "description": "A utility-first CSS framework packed with classes like flex, pt-4, text-center and rotate-90 that can be composed to build any design, directly in your markup.",
+      "logo": "/tailwind_logo.svg"
+    },
+    {
+      "id": 3,
+      "name": "Jotai",
+      "description": "Jotai is a primitive, flexible, and extensible state management library for React. It's easy to use and has a tiny footprint (~1kb minified and gzipped).",
+      "logo": "/jotai_logo.svg"
+    },
+    {
+      "id": 4,
+      "name": "TypeScript",
+      "description": "TypeScript is a typed superset of JavaScript that compiles to plain JavaScript.",
+      "logo": "/typescript_logo.svg"
+    },
+    {
+      "id": 5,
+      "name": "Tanstack Query",
+      "description": "TanStack Query is a powerful and versatile data fetching and caching library for React and React Native.",
+      "logo": "/react_query_logo.svg"
+    },
+    {
+      "id": 6,
+      "name": "NextUI",
+      "description": "NextUI is a collection of essential React components built on top of Tailwind CSS.",
+      "logo": "/nextui_logo.svg"
+    }
+  ],
+  "backend": [
+    {
+      "id": 1,
+      "name": "NodeJS",
+      "description": "Node.js is a JavaScript runtime built on Chrome's V8 JavaScript engine.",
+      "logo": "/nodejs_logo.svg"
+    },
+    {
+      "id": 2,
+      "name": "Directus",
+      "description": "Directus is a headless CMS that provides an API-first content management system for your website or application.",
+      "logo": "/directus_logo.svg"
+    },
+    {
+      "id": 3,
+      "name": "NestJS",
+      "description": "Nest is a progressive Node.js framework for building efficient, reliable, and scalable server-side applications.",
+      "logo": "/nestjs_logo.svg"
+    },
+
+    {
+      "id": 4,
+      "name": "ExpressJS",
+      "description": "Express is a minimal and flexible Node.js web application framework that provides a robust set of features for web and mobile applications.",
+      "logo": "/express_logo.svg"
+    },
+    {
+      "id": 5,
+      "name": "Fastify",
+      "description": "Fastify is a web framework that provides a simple and efficient way to build server applications.",
+      "logo": "/fastify_logo.svg"
+    },
+    {
+      "id": 6,
+      "name": "Prisma",
+      "description": "Prisma is a database toolkit that provides a high-level API for building, managing, and querying databases in Node.js and TypeScript.",
+      "logo": "/prisma_logo.svg"
+    }
+  ]
+}

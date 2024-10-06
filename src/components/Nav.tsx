@@ -7,7 +7,15 @@ import {
   NavbarItem,
 } from "@nextui-org/navbar";
 import { Tooltip } from "@nextui-org/tooltip";
-import { AtSign, CodeXml, Home, Lightbulb, User } from "lucide-react";
+import {
+  AtSign,
+  CodeXml,
+  Home,
+  Lightbulb,
+  Settings,
+  SquareKanban,
+  User,
+} from "lucide-react";
 import { useRouter } from "next/router";
 import Link from "next/link";
 import SwitchTheme from "./SwitchTheme";
@@ -23,13 +31,23 @@ export default function Navigation() {
   const menu = [
     { icon: <Home />, path: "/", name: "Home" },
     { icon: <User />, path: "/about", name: "About" },
+    { icon: <Settings />, path: "/skills", name: "Skills" },
+    { icon: <SquareKanban />, path: "/experience", name: "Experience" },
     { icon: <Lightbulb />, path: "/services", name: "Services" },
     { icon: <CodeXml />, path: "/projects", name: "Projects" },
     { icon: <AtSign />, path: "/contact", name: "Contact" },
   ];
 
+  const handleLinkClick = () => {
+    setIsMenuOpen(false); // Close the menu when a link is clicked
+  };
+
   return (
-    <Navbar onMenuOpenChange={setIsMenuOpen} className={`${raleway.className}`}>
+    <Navbar
+      isMenuOpen={isMenuOpen}
+      onMenuOpenChange={setIsMenuOpen}
+      className={`${raleway.className}`}
+    >
       <NavbarContent>
         <NavbarMenuToggle
           aria-label={isMenuOpen ? "Close menu" : "Open menu"}
@@ -65,19 +83,19 @@ export default function Navigation() {
       </NavbarContent>
       <NavbarMenu>
         {menu.map((items) => (
-          <Link key={items.path} href={items.path}>
+          <Link key={items.path} href={items.path} onClick={handleLinkClick}>
             <NavbarItem
               className={`${
                 router.pathname === items.path &&
                 "bg-foreground text-background rounded-md"
               } p-3 flex items-center gap-2`}
             >
-              <p className="">{items.icon}</p>
-              <p className="">{items.name}</p>
+              <p>{items.icon}</p>
+              <p>{items.name}</p>
             </NavbarItem>
           </Link>
         ))}
-        <NavbarItem className="">
+        <NavbarItem>
           <Footer />
         </NavbarItem>
       </NavbarMenu>
