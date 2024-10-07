@@ -1,10 +1,14 @@
+import { Raleway } from "next/font/google";
 import Link from "next/link";
 import { FaGithub, FaLinkedin } from "react-icons/fa";
+const raleway = Raleway({ subsets: ["latin"], weight: "400" });
 
 const Footer = () => {
   return (
     <>
-      <div className="w-full p-3 lg:px-12 flex justify-between items-center h-full">
+      <div
+        className={`${raleway.className} w-full p-3 lg:px-12 flex justify-between items-center h-full`}
+      >
         <p className="font-bold">
           @{new Date().getFullYear()}.All rights reserved
         </p>
