@@ -5,7 +5,7 @@ const index = () => {
   return (
     <>
       <Head>
-        <title>Priyangsu Banik</title>
+        <title>Home</title>
         <meta name="description" content="Welcome to my Portfolio" />
         <meta
           name="keywords"
