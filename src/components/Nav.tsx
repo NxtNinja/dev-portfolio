@@ -66,7 +66,12 @@ export default function Navigation() {
                 router.pathname === items.path && "border-b-2 border-foreground"
               } p-3`}
             >
-              <Tooltip showArrow={true} color="foreground" content={items.name}>
+              <Tooltip
+                showArrow={true}
+                color="foreground"
+                content={items.name}
+                className={`${raleway.className}`}
+              >
                 {items.icon}
               </Tooltip>
             </NavbarItem>
@@ -88,7 +93,7 @@ export default function Navigation() {
               className={`${
                 router.pathname === items.path &&
                 "bg-foreground text-background rounded-md"
-              } p-3 flex items-center gap-2`}
+              } p-3 flex items-center gap-2 ${raleway.className}`}
             >
               <p>{items.icon}</p>
               <p>{items.name}</p>
