@@ -15,6 +15,7 @@ const HomePage = () => {
               alt="profile"
               width={200}
               height={200}
+              radius="full"
             />
             <div className="">
               <p className="sm:text-xl text-lg lg:text-lg">Hello, I'm</p>
